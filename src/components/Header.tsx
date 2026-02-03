@@ -126,7 +126,7 @@ export function Header() {
                     <Link
                       key={child.href}
                       href={child.href}
-                      className="px-5 py-2 text-sage-700 hover:bg-sage-100 rounded"
+                      className="px-5 py-2 text-sage-700 hover:bg-sage-100 rounded-full"
                       onClick={() => setMobileOpen(false)}
                     >
                       {child.label}
@@ -137,7 +137,7 @@ export function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="px-3 py-2 text-sage-700 hover:bg-sage-100 rounded font-medium"
+                  className="px-3 py-2 text-sage-700 hover:bg-sage-100 rounded-full font-medium"
                   onClick={() => setMobileOpen(false)}
                 >
                   {item.label}

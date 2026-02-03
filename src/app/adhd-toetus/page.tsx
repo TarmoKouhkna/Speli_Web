@@ -35,7 +35,7 @@ export default function ADHDToetusPage() {
         <div className="mt-12">
           <Link
             href="/vota-uhendust"
-            className="inline-block bg-sage-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-sage-800 transition-colors"
+            className="inline-block bg-sage-700 text-white px-6 py-3 rounded-full font-medium hover:bg-sage-800 transition-colors"
           >
             Võta ühendust
           </Link>
