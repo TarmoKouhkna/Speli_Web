@@ -1,11 +1,7 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Lora } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-
-const dmSans = DM_Sans({ subsets: ['latin'], variable: '--font-sans' })
-const lora = Lora({ subsets: ['latin'], variable: '--font-serif' })
 
 export const metadata: Metadata = {
   title: 'Speli Kõuhkna | Psühholoogiline nõustamine Harjumaal',
@@ -18,7 +14,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="et" className={`${dmSans.variable} ${lora.variable}`}>
+    <html lang="et">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-screen flex flex-col bg-cream font-sans antialiased text-sage-900">
         <Header />
         <main className="flex-1">{children}</main>

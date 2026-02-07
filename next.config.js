@@ -7,6 +7,8 @@ const nextConfig = {
         poll: 1000,
         ignored: ['**/node_modules', '**/.git'],
       }
+      // Disable file-based cache to avoid ENOENT / 1.pack.gz errors
+      config.cache = false
     }
     return config
   },

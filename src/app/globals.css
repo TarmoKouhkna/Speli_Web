@@ -10,6 +10,8 @@
   --sage-800: #333d31;
   --text-primary: #2b3329;
   --text-muted: #5f755a;
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Lora', Georgia, serif;
 }
 
 html {

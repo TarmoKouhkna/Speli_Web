@@ -35,7 +35,7 @@ export function Header() {
           href="/"
           className="font-serif text-xl md:text-3xl font-bold text-[#2d3a2f] hover:text-[#4a5c4e] transition-colors flex items-center gap-2"
         >
-          <span className="text-[#0F399D]" aria-hidden>
+          <span className="text-current" aria-hidden>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="36"

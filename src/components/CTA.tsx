@@ -12,7 +12,7 @@ export function CTA() {
         </p>
         <Link
           href="/vota-uhendust"
-          className="inline-block bg-sage-700 text-white px-8 py-4 rounded-full font-medium hover:bg-sage-800 transition-colors shadow-sm"
+          className="inline-block bg-primary text-white px-8 py-4 rounded-full font-medium hover:bg-primary-600 transition-colors shadow-sm"
         >
           Võta ühendust
         </Link>

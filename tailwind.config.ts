@@ -25,6 +25,11 @@ const config: Config = {
           800: '#333d31',
           900: '#2b3329',
         },
+        primary: {
+          DEFAULT: '#1794AF',
+          500: '#1794AF',
+          600: '#127a8f',
+        },
         cream: '#faf9f6',
         warm: '#f5f2eb',
       },
